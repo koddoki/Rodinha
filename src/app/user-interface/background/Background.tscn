@@ -1,0 +1,8 @@
+[gd_scene format=2]
+
+[node name="Background" type="Control"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 1024.0
+margin_bottom = 600.0
+color = Color( 0.00392157, 0.298039, 0.105882, 1 )

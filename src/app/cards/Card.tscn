@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://src/app/cards/Card.gd" type="Script" id=1]
+[ext_resource path="res://src/assets/images/deck/A_Espadas.png" type="Texture" id=2]
+
+[node name="Card" type="Node2D"]
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_lock_": true
+}
+card_value = "5"
+card_naipe = "Copas"
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 494, 313 )
+scale = Vector2( 0.2, 0.2 )
+texture = ExtResource( 2 )
